@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.header__logo a{
+    color: #404040;
+}
+.header__logo a:first-child{
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.header__logo a:nth-child(2){
+    font-family: 'arial', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+a.menu__link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #404040;
+}
+a.menu__link:hover{
+    color: white;
+    background-color: #d45e5e;
+}
